@@ -44,8 +44,8 @@
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "us";
-    xkbVariant = "";
+    xkb.layout = "us";
+    xkb.variant = "";
   };
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
@@ -67,6 +67,14 @@
   neovim
   git
   tmux
+  hyfetch
+  hyprlock
+  hyprpaper
+  kitty
+  wofi
+  waybar
+  firefox
+  wget
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
