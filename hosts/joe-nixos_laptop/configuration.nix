@@ -75,6 +75,7 @@
   waybar
   firefox
   wget
+  gh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
